@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9fd;
+}
+a {
+    text-decoration: none;
+}
+input{
+    padding: 3px;
+}
+h2{
+    margin: 5px 0;
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 32px;
+}
+h5{
+    margin: 5px 0;
+    color: rgba(0, 0, 0, 0.945);
+    font-size: 15px;
+    font-weight: 600;
+}
+.box{
+    background-color: aliceblue;
+    padding: 10px;
+    height: 350px;
+}
+.text{
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+}
+.part{
+    margin: 5px 0; 
+}
+.full{
+    width: 350px;
+    margin: 5px 0;
+}
+.agree{
+    color: rgba(0, 0, 0, 0.589);
+    font-size: 10px;
+    line-height: normal;
+}
+.button{
+    background-color: rgb(103, 161, 16);
+    padding: 5px 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 10px;
+}

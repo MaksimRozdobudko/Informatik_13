@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script lang="JavaScript">
+        function grant() {
+            var d = document;
+            var k = 0;
+            if ((d.form1.elements[0]).checked)
+                k = k + Number(d.form1.elements[0].value)
+            if ((d.form1.elements[1]).checked)
+                k = k + Number(d.form1.elements[1].value)
+            if ((d.form1.elements[2]).checked)
+                k = k + Number(d.form1.elements[2].value)
+            if ((d.form1.elements[3]).checked)
+                k = k + Number(d.form1.elements[3].value)
+            if ((d.form1.elements[4]).checked)
+                k = k + Number(d.form1.elements[4].value)
+            if ((d.form1.elements[5]).checked)
+                k = k + Number(d.form1.elements[5].value)
+            if ((d.form1.elements[6]).checked)
+                k = k + Number(d.form1.elements[6].value)
+            d.form1.output1.value = k;
+        }
+    </script>
+    <div class="nav">
+        <nav>
+            <a class="navigation" href="index.html">1</a>
+            <a class="navigation" href="task_2.html">2</a>
+            <a class="navigation" href="task_3.html">3</a>
+         </nav>
+    </div>
+</head>
+</body>
+<div class="border">
+<h3>Анкета для перекладачів</h3>
+Вкажіть ті мови якими ви володієте досконало: <br>
+<form name="form1">
+    <input type="checkbox" name="lan" value="100"> іспанська <br>
+    <input type="checkbox" name="lan" value="200"> англійська <br>
+    <input type="checkbox" name="lan" value="300"> французька <br>
+    <input type="checkbox" name="lan" value="400"> німецька <br>
+    <input type="checkbox" name="lan" value="500"> китайська <br>
+    <input type="checkbox" name="lan" value="600"> японська <br>
+    <input type="checkbox" name="lan" value="700"> українська <br>
+    <hr>
+    <input type="text" name="output1" size="10">
+    <input type="button" value=Винагорода onClick="grant()">
+    <hr>
+    <input type="reset" value="Відмінити">
+</form>
+<hr>
+</div>
+</body>
+
+</html>

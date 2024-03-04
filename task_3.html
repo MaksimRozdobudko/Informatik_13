@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <div class="nav">
+        <nav>
+            <a class="navigation" href="index.html">1</a>
+            <a class="navigation" href="task_2.html">2</a>
+            <a class="navigation" href="task_3.html">3</a>
+        </nav>
+    </div>
+</head>
+
+<body>
+   
+<div  class="box">
+    <h2>Зареєструватися</h2>
+    <h5>Це безкоштовно і так буде завжди.</h5>
+    <form action="#" method="post">
+        <input class="part" type="text" id="firstName" name="firstName" required placeholder="Ім'я" autofocus>
+
+        <input class="part" type="text" id="lastName" name="lastName" required placeholder="Прізвище"><br>
+
+        <input class="full" type="text" id="contact" name="contact" required placeholder="Номер мобільного телефону або ел. пошта"><br>
+
+        <input class="full" type="password" id="password" name="password" required placeholder="Новий пароль"><br>
+
+        <label class="text" for="dobDay">День народження:</label> <br>
+        <input type="number" id="dobDay" name="dobDay" min="1" max="31" required placeholder="20">
+
+        <select id="dobMonth" name="dobMonth" required placeholder="firstName">
+            <option value="січень">січень</option>
+            <option value="лютий">лютий</option>
+            <option value="березень">березень</option>
+            <option value="квітень">квітень</option>
+            <option value="травень">травень</option>
+            <option value="червень">червень</option>
+            <option value="липень">липень</option>
+            <option value="серпень">серпень</option>
+            <option value="вересень">вересень</option>
+            <option value="жовтень">жовтень</option>
+            <option value="листопад">листопад</option>
+            <option value="грудень">грудень</option>
+        </select>
+
+        <input type="number" id="dobYear" name="dobYear" min="1000" max="2024" required placeholder="1889"><br>
+
+        <label class="text">Стать:</label> <br>
+        <input type="radio" id="female" name="gender" value="жінка" required>
+        <label for="female">Жінка</label>
+
+        <input type="radio" id="male" name="gender" value="чоловік" required>
+        <label for="male">Чоловік</label>
+
+        <input type="radio" id="other" name="gender" value="інше" required>
+        <label for="other">Інше</label><br>
+
+        <input type="checkbox" id="agree" name="agree" required>
+        <label class="agree" for="agree">By clicking Зареєструватися, you agree to our <a href="#">Terms</a>, <a href="#">Data <br> Policy</a>  
+        and  <a href="#">Cookies Policy</a>  You may receive SMS Notifications <br>
+        from us and can opt out any time</label><br>
+
+        <input class="button" type="submit" value="Зареєструватися">
+    </form>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Обчислення площі прямокутного трикутника</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script lang="JavaScript">
+        function area1(a, h) {
+            form1.output1.value = (a.value * h.value) / 2;
+        }
+    </script>
+    <div class="nav">
+        <nav>
+            <a class="navigation" href="index.html">1</a>
+            <a class="navigation" href="task_2.html">2</a>
+            <a class="navigation" href="task_3.html">3</a>
+        </nav>
+    </div>
+</head>
+
+<body>
+    <div class="border">
+        <p>Обчислення плоші прямокутного трикутника</p>
+        <form name="form1">
+            <fieldset style="width: 40%">
+                <legend>Введення даних</legend>
+                Основа: <input type="text" size="7" name="st1">
+                Висотa: <input type="text" size="7" name="st2"> <br>
+            </fieldset>
+            <fieldset style="width: 40%">
+                <legend>Обробка та виведення даних</legend>
+                Площа: <input type="text" size="7" name="output1" readonly> <br>
+                <input class="sum" type="button" value="Обчислити" style="margin:10px"
+                    onClick="area1(form1.st1, form1.st2)">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
